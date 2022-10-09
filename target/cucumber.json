@@ -1,0 +1,193 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-09T07:16:14.396Z",
+        "before": [
+          {
+            "result": {
+              "duration": 36919000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "This scenario is to add the list of numbers",
+        "description": "",
+        "id": "this-feature-would-be-calculating-addition-and-subtraction-of-two-numbers;this-scenario-is-to-add-the-list-of-numbers;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1831000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I have a calculator",
+            "match": {
+              "location": "StepDefinitions.CalcStepDefs.i_have_a_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I add the numbers 2 and 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 18
+                },
+                {
+                  "val": "3",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinitions.CalcStepDefs.i_add_the_numbers_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should get the result as 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.CalcStepDefs.i_should_get_the_result_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-09T07:16:53.884Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12858000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "This scenario is to add the list of numbers",
+        "description": "",
+        "id": "this-feature-would-be-calculating-addition-and-subtraction-of-two-numbers;this-scenario-is-to-add-the-list-of-numbers;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I have a calculator",
+            "match": {
+              "location": "StepDefinitions.CalcStepDefs.i_have_a_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I add the numbers 7 and 9",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 18
+                },
+                {
+                  "val": "9",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinitions.CalcStepDefs.i_add_the_numbers_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should get the result as 16",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.CalcStepDefs.i_should_get_the_result_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be calculating Addition and Subtraction of two numbers",
+    "description": "",
+    "id": "this-feature-would-be-calculating-addition-and-subtraction-of-two-numbers",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Calculator.feature",
+    "tags": []
+  }
+]
